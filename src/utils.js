@@ -1,5 +1,5 @@
 const paginate = (followers) => {
-  const itemsPerPage = 9;
+  const itemsPerPage = 12;
   const pages = Math.ceil(followers.length / itemsPerPage);
 
   //create anr array of arrays
